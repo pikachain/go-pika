@@ -22,3 +22,21 @@ The project is structured into several modules based on the new functionalities 
 `consensus`: This is also another *functional module* to solve the consensus problem once a block is produced.
 
 `log`: To log all the operations(front+backend) of the POC. Duh.
+
+## Objectives of this POC
+
+### Blockchain
+
+1. Create a basic PoS blockchain (list of blocks linked by cryptographic signature) integrating the new innovation in networking, computation and consensus.
+
+### Networking
+
+1. Implement and expose services using libp2p through APIs and RPCs so that multiple instances can communicate with each other (allow our instances to form a blockchain network)
+
+### Computation
+
+1. Facilitate a WASM runtime for the execution of simple arithmetic logic across the network.
+
+### Consensus
+
+1. Implement a simple PoS based consensus algorithm(let our instances agree on shared state)
